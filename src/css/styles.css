@@ -16,3 +16,28 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+.timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #2e2f42;
+}
